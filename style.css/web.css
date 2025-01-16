@@ -12,6 +12,9 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+   color: rgba(117, 117, 117, 1); 
+}
 .btn-primary-4{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -139,4 +142,79 @@ nav li a{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
+}
+/* resume-container */
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.section-title{
+    text-align: center;
+}
+.experience-description{
+    font-size: 16px;
+    font-weight: 400px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume-colum-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.resum hr{
+    margin: 40px 10px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 100px;
+}
+/* footer style */
+.secendary-bg{
+    background-color: rgba(255, 248, 243, 1);
+}
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"]{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+}
+footer input[type="email"]{
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+}
+footer textarea{
+    width: 461px;
+    height: 180px;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+    padding: 10px 20px;
 }
